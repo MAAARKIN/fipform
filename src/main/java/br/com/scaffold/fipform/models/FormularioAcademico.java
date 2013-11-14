@@ -55,8 +55,8 @@ public class FormularioAcademico extends AbstractEntity {
 	private String acessibilidadeProfessor;
 	private String metodologiaProfessor;
 	private String avaliacaoProfessorSala;
-	private boolean apresentaPlanoEnsino;
-	private boolean conteudoMinistradoIgualPlano;
+	private String apresentaPlanoEnsino;
+	private String conteudoMinistradoIgualPlano;
 
 	// avaliacao das disciplinas 2
 	private String nomeDisciplina2;
@@ -67,8 +67,8 @@ public class FormularioAcademico extends AbstractEntity {
 	private String acessibilidadeProfessor2;
 	private String metodologiaProfessor2;
 	private String avaliacaoProfessorSala2;
-	private boolean apresentaPlanoEnsino2;
-	private boolean conteudoMinistradoIgualPlano2;
+	private String apresentaPlanoEnsino2;
+	private String conteudoMinistradoIgualPlano2;
 
 	// avaliacao das disciplinas 3
 	private String nomeDisciplina3;
@@ -79,32 +79,32 @@ public class FormularioAcademico extends AbstractEntity {
 	private String acessibilidadeProfessor3;
 	private String metodologiaProfessor3;
 	private String avaliacaoProfessorSala3;
-	private boolean apresentaPlanoEnsino3;
-	private boolean conteudoMinistradoIgualPlano3;
+	private String apresentaPlanoEnsino3;
+	private String conteudoMinistradoIgualPlano3;
 
-	// avaliacao das disciplinas 4
-	private String nomeDisciplina4;
-	private String dominioProfessor4;
-	private String relacaoProfessorAluno4;
-	private String pontualidadeProfessor4;
-	private String capacidadeProfessorSolucionarProblemas4;
-	private String acessibilidadeProfessor4;
-	private String metodologiaProfessor4;
-	private String avaliacaoProfessorSala4;
-	private boolean apresentaPlanoEnsino4;
-	private boolean conteudoMinistradoIgualPlano4;
-
-	// avaliacao das disciplinas 5
-	private String nomeDisciplina5;
-	private String dominioProfessor5;
-	private String relacaoProfessorAluno5;
-	private String pontualidadeProfessor5;
-	private String capacidadeProfessorSolucionarProblemas5;
-	private String acessibilidadeProfessor5;
-	private String metodologiaProfessor5;
-	private String avaliacaoProfessorSala5;
-	private boolean apresentaPlanoEnsino5;
-	private boolean conteudoMinistradoIgualPlano5;
+//	// avaliacao das disciplinas 4
+//	private String nomeDisciplina4;
+//	private String dominioProfessor4;
+//	private String relacaoProfessorAluno4;
+//	private String pontualidadeProfessor4;
+//	private String capacidadeProfessorSolucionarProblemas4;
+//	private String acessibilidadeProfessor4;
+//	private String metodologiaProfessor4;
+//	private String avaliacaoProfessorSala4;
+//	private String apresentaPlanoEnsino4;
+//	private String conteudoMinistradoIgualPlano4;
+//
+//	// avaliacao das disciplinas 5
+//	private String nomeDisciplina5;
+//	private String dominioProfessor5;
+//	private String relacaoProfessorAluno5;
+//	private String pontualidadeProfessor5;
+//	private String capacidadeProfessorSolucionarProblemas5;
+//	private String acessibilidadeProfessor5;
+//	private String metodologiaProfessor5;
+//	private String avaliacaoProfessorSala5;
+//	private String apresentaPlanoEnsino5;
+//	private String conteudoMinistradoIgualPlano5;
 	
 	public FormularioAcademico() {
 		// TODO Auto-generated constructor stub
@@ -414,19 +414,19 @@ public class FormularioAcademico extends AbstractEntity {
 		this.avaliacaoProfessorSala = avaliacaoProfessorSala;
 	}
 
-	public boolean isApresentaPlanoEnsino() {
+	public String isApresentaPlanoEnsino() {
 		return apresentaPlanoEnsino;
 	}
 
-	public void setApresentaPlanoEnsino(boolean apresentaPlanoEnsino) {
+	public void setApresentaPlanoEnsino(String apresentaPlanoEnsino) {
 		this.apresentaPlanoEnsino = apresentaPlanoEnsino;
 	}
 
-	public boolean isConteudoMinistradoIgualPlano() {
+	public String isConteudoMinistradoIgualPlano() {
 		return conteudoMinistradoIgualPlano;
 	}
 
-	public void setConteudoMinistradoIgualPlano(boolean conteudoMinistradoIgualPlano) {
+	public void setConteudoMinistradoIgualPlano(String conteudoMinistradoIgualPlano) {
 		this.conteudoMinistradoIgualPlano = conteudoMinistradoIgualPlano;
 	}
 
@@ -495,20 +495,20 @@ public class FormularioAcademico extends AbstractEntity {
 		this.avaliacaoProfessorSala2 = avaliacaoProfessorSala2;
 	}
 
-	public boolean isApresentaPlanoEnsino2() {
+	public String isApresentaPlanoEnsino2() {
 		return apresentaPlanoEnsino2;
 	}
 
-	public void setApresentaPlanoEnsino2(boolean apresentaPlanoEnsino2) {
+	public void setApresentaPlanoEnsino2(String apresentaPlanoEnsino2) {
 		this.apresentaPlanoEnsino2 = apresentaPlanoEnsino2;
 	}
 
-	public boolean isConteudoMinistradoIgualPlano2() {
+	public String isConteudoMinistradoIgualPlano2() {
 		return conteudoMinistradoIgualPlano2;
 	}
 
 	public void setConteudoMinistradoIgualPlano2(
-			boolean conteudoMinistradoIgualPlano2) {
+			String conteudoMinistradoIgualPlano2) {
 		this.conteudoMinistradoIgualPlano2 = conteudoMinistradoIgualPlano2;
 	}
 
@@ -577,185 +577,185 @@ public class FormularioAcademico extends AbstractEntity {
 		this.avaliacaoProfessorSala3 = avaliacaoProfessorSala3;
 	}
 
-	public boolean isApresentaPlanoEnsino3() {
+	public String isApresentaPlanoEnsino3() {
 		return apresentaPlanoEnsino3;
 	}
 
-	public void setApresentaPlanoEnsino3(boolean apresentaPlanoEnsino3) {
+	public void setApresentaPlanoEnsino3(String apresentaPlanoEnsino3) {
 		this.apresentaPlanoEnsino3 = apresentaPlanoEnsino3;
 	}
 
-	public boolean isConteudoMinistradoIgualPlano3() {
+	public String isConteudoMinistradoIgualPlano3() {
 		return conteudoMinistradoIgualPlano3;
 	}
 
 	public void setConteudoMinistradoIgualPlano3(
-			boolean conteudoMinistradoIgualPlano3) {
+			String conteudoMinistradoIgualPlano3) {
 		this.conteudoMinistradoIgualPlano3 = conteudoMinistradoIgualPlano3;
 	}
 
-	public String getNomeDisciplina4() {
-		return nomeDisciplina4;
-	}
-
-	public void setNomeDisciplina4(String nomeDisciplina4) {
-		this.nomeDisciplina4 = nomeDisciplina4;
-	}
-
-	public String getDominioProfessor4() {
-		return dominioProfessor4;
-	}
-
-	public void setDominioProfessor4(String dominioProfessor4) {
-		this.dominioProfessor4 = dominioProfessor4;
-	}
-
-	public String getRelacaoProfessorAluno4() {
-		return relacaoProfessorAluno4;
-	}
-
-	public void setRelacaoProfessorAluno4(String relacaoProfessorAluno4) {
-		this.relacaoProfessorAluno4 = relacaoProfessorAluno4;
-	}
-
-	public String getPontualidadeProfessor4() {
-		return pontualidadeProfessor4;
-	}
-
-	public void setPontualidadeProfessor4(String pontualidadeProfessor4) {
-		this.pontualidadeProfessor4 = pontualidadeProfessor4;
-	}
-
-	public String getCapacidadeProfessorSolucionarProblemas4() {
-		return capacidadeProfessorSolucionarProblemas4;
-	}
-
-	public void setCapacidadeProfessorSolucionarProblemas4(
-			String capacidadeProfessorSolucionarProblemas4) {
-		this.capacidadeProfessorSolucionarProblemas4 = capacidadeProfessorSolucionarProblemas4;
-	}
-
-	public String getAcessibilidadeProfessor4() {
-		return acessibilidadeProfessor4;
-	}
-
-	public void setAcessibilidadeProfessor4(String acessibilidadeProfessor4) {
-		this.acessibilidadeProfessor4 = acessibilidadeProfessor4;
-	}
-
-	public String getMetodologiaProfessor4() {
-		return metodologiaProfessor4;
-	}
-
-	public void setMetodologiaProfessor4(String metodologiaProfessor4) {
-		this.metodologiaProfessor4 = metodologiaProfessor4;
-	}
-
-	public String getAvaliacaoProfessorSala4() {
-		return avaliacaoProfessorSala4;
-	}
-
-	public void setAvaliacaoProfessorSala4(String avaliacaoProfessorSala4) {
-		this.avaliacaoProfessorSala4 = avaliacaoProfessorSala4;
-	}
-
-	public boolean isApresentaPlanoEnsino4() {
-		return apresentaPlanoEnsino4;
-	}
-
-	public void setApresentaPlanoEnsino4(boolean apresentaPlanoEnsino4) {
-		this.apresentaPlanoEnsino4 = apresentaPlanoEnsino4;
-	}
-
-	public boolean isConteudoMinistradoIgualPlano4() {
-		return conteudoMinistradoIgualPlano4;
-	}
-
-	public void setConteudoMinistradoIgualPlano4(
-			boolean conteudoMinistradoIgualPlano4) {
-		this.conteudoMinistradoIgualPlano4 = conteudoMinistradoIgualPlano4;
-	}
-
-	public String getNomeDisciplina5() {
-		return nomeDisciplina5;
-	}
-
-	public void setNomeDisciplina5(String nomeDisciplina5) {
-		this.nomeDisciplina5 = nomeDisciplina5;
-	}
-
-	public String getDominioProfessor5() {
-		return dominioProfessor5;
-	}
-
-	public void setDominioProfessor5(String dominioProfessor5) {
-		this.dominioProfessor5 = dominioProfessor5;
-	}
-
-	public String getRelacaoProfessorAluno5() {
-		return relacaoProfessorAluno5;
-	}
-
-	public void setRelacaoProfessorAluno5(String relacaoProfessorAluno5) {
-		this.relacaoProfessorAluno5 = relacaoProfessorAluno5;
-	}
-
-	public String getPontualidadeProfessor5() {
-		return pontualidadeProfessor5;
-	}
-
-	public void setPontualidadeProfessor5(String pontualidadeProfessor5) {
-		this.pontualidadeProfessor5 = pontualidadeProfessor5;
-	}
-
-	public String getCapacidadeProfessorSolucionarProblemas5() {
-		return capacidadeProfessorSolucionarProblemas5;
-	}
-
-	public void setCapacidadeProfessorSolucionarProblemas5(
-			String capacidadeProfessorSolucionarProblemas5) {
-		this.capacidadeProfessorSolucionarProblemas5 = capacidadeProfessorSolucionarProblemas5;
-	}
-
-	public String getAcessibilidadeProfessor5() {
-		return acessibilidadeProfessor5;
-	}
-
-	public void setAcessibilidadeProfessor5(String acessibilidadeProfessor5) {
-		this.acessibilidadeProfessor5 = acessibilidadeProfessor5;
-	}
-
-	public String getMetodologiaProfessor5() {
-		return metodologiaProfessor5;
-	}
-
-	public void setMetodologiaProfessor5(String metodologiaProfessor5) {
-		this.metodologiaProfessor5 = metodologiaProfessor5;
-	}
-
-	public String getAvaliacaoProfessorSala5() {
-		return avaliacaoProfessorSala5;
-	}
-
-	public void setAvaliacaoProfessorSala5(String avaliacaoProfessorSala5) {
-		this.avaliacaoProfessorSala5 = avaliacaoProfessorSala5;
-	}
-
-	public boolean isApresentaPlanoEnsino5() {
-		return apresentaPlanoEnsino5;
-	}
-
-	public void setApresentaPlanoEnsino5(boolean apresentaPlanoEnsino5) {
-		this.apresentaPlanoEnsino5 = apresentaPlanoEnsino5;
-	}
-
-	public boolean isConteudoMinistradoIgualPlano5() {
-		return conteudoMinistradoIgualPlano5;
-	}
-
-	public void setConteudoMinistradoIgualPlano5(
-			boolean conteudoMinistradoIgualPlano5) {
-		this.conteudoMinistradoIgualPlano5 = conteudoMinistradoIgualPlano5;
-	}
+//	public String getNomeDisciplina4() {
+//		return nomeDisciplina4;
+//	}
+//
+//	public void setNomeDisciplina4(String nomeDisciplina4) {
+//		this.nomeDisciplina4 = nomeDisciplina4;
+//	}
+//
+//	public String getDominioProfessor4() {
+//		return dominioProfessor4;
+//	}
+//
+//	public void setDominioProfessor4(String dominioProfessor4) {
+//		this.dominioProfessor4 = dominioProfessor4;
+//	}
+//
+//	public String getRelacaoProfessorAluno4() {
+//		return relacaoProfessorAluno4;
+//	}
+//
+//	public void setRelacaoProfessorAluno4(String relacaoProfessorAluno4) {
+//		this.relacaoProfessorAluno4 = relacaoProfessorAluno4;
+//	}
+//
+//	public String getPontualidadeProfessor4() {
+//		return pontualidadeProfessor4;
+//	}
+//
+//	public void setPontualidadeProfessor4(String pontualidadeProfessor4) {
+//		this.pontualidadeProfessor4 = pontualidadeProfessor4;
+//	}
+//
+//	public String getCapacidadeProfessorSolucionarProblemas4() {
+//		return capacidadeProfessorSolucionarProblemas4;
+//	}
+//
+//	public void setCapacidadeProfessorSolucionarProblemas4(
+//			String capacidadeProfessorSolucionarProblemas4) {
+//		this.capacidadeProfessorSolucionarProblemas4 = capacidadeProfessorSolucionarProblemas4;
+//	}
+//
+//	public String getAcessibilidadeProfessor4() {
+//		return acessibilidadeProfessor4;
+//	}
+//
+//	public void setAcessibilidadeProfessor4(String acessibilidadeProfessor4) {
+//		this.acessibilidadeProfessor4 = acessibilidadeProfessor4;
+//	}
+//
+//	public String getMetodologiaProfessor4() {
+//		return metodologiaProfessor4;
+//	}
+//
+//	public void setMetodologiaProfessor4(String metodologiaProfessor4) {
+//		this.metodologiaProfessor4 = metodologiaProfessor4;
+//	}
+//
+//	public String getAvaliacaoProfessorSala4() {
+//		return avaliacaoProfessorSala4;
+//	}
+//
+//	public void setAvaliacaoProfessorSala4(String avaliacaoProfessorSala4) {
+//		this.avaliacaoProfessorSala4 = avaliacaoProfessorSala4;
+//	}
+//
+//	public String isApresentaPlanoEnsino4() {
+//		return apresentaPlanoEnsino4;
+//	}
+//
+//	public void setApresentaPlanoEnsino4(String apresentaPlanoEnsino4) {
+//		this.apresentaPlanoEnsino4 = apresentaPlanoEnsino4;
+//	}
+//
+//	public String isConteudoMinistradoIgualPlano4() {
+//		return conteudoMinistradoIgualPlano4;
+//	}
+//
+//	public void setConteudoMinistradoIgualPlano4(
+//			String conteudoMinistradoIgualPlano4) {
+//		this.conteudoMinistradoIgualPlano4 = conteudoMinistradoIgualPlano4;
+//	}
+//
+//	public String getNomeDisciplina5() {
+//		return nomeDisciplina5;
+//	}
+//
+//	public void setNomeDisciplina5(String nomeDisciplina5) {
+//		this.nomeDisciplina5 = nomeDisciplina5;
+//	}
+//
+//	public String getDominioProfessor5() {
+//		return dominioProfessor5;
+//	}
+//
+//	public void setDominioProfessor5(String dominioProfessor5) {
+//		this.dominioProfessor5 = dominioProfessor5;
+//	}
+//
+//	public String getRelacaoProfessorAluno5() {
+//		return relacaoProfessorAluno5;
+//	}
+//
+//	public void setRelacaoProfessorAluno5(String relacaoProfessorAluno5) {
+//		this.relacaoProfessorAluno5 = relacaoProfessorAluno5;
+//	}
+//
+//	public String getPontualidadeProfessor5() {
+//		return pontualidadeProfessor5;
+//	}
+//
+//	public void setPontualidadeProfessor5(String pontualidadeProfessor5) {
+//		this.pontualidadeProfessor5 = pontualidadeProfessor5;
+//	}
+//
+//	public String getCapacidadeProfessorSolucionarProblemas5() {
+//		return capacidadeProfessorSolucionarProblemas5;
+//	}
+//
+//	public void setCapacidadeProfessorSolucionarProblemas5(
+//			String capacidadeProfessorSolucionarProblemas5) {
+//		this.capacidadeProfessorSolucionarProblemas5 = capacidadeProfessorSolucionarProblemas5;
+//	}
+//
+//	public String getAcessibilidadeProfessor5() {
+//		return acessibilidadeProfessor5;
+//	}
+//
+//	public void setAcessibilidadeProfessor5(String acessibilidadeProfessor5) {
+//		this.acessibilidadeProfessor5 = acessibilidadeProfessor5;
+//	}
+//
+//	public String getMetodologiaProfessor5() {
+//		return metodologiaProfessor5;
+//	}
+//
+//	public void setMetodologiaProfessor5(String metodologiaProfessor5) {
+//		this.metodologiaProfessor5 = metodologiaProfessor5;
+//	}
+//
+//	public String getAvaliacaoProfessorSala5() {
+//		return avaliacaoProfessorSala5;
+//	}
+//
+//	public void setAvaliacaoProfessorSala5(String avaliacaoProfessorSala5) {
+//		this.avaliacaoProfessorSala5 = avaliacaoProfessorSala5;
+//	}
+//
+//	public String isApresentaPlanoEnsino5() {
+//		return apresentaPlanoEnsino5;
+//	}
+//
+//	public void setApresentaPlanoEnsino5(String apresentaPlanoEnsino5) {
+//		this.apresentaPlanoEnsino5 = apresentaPlanoEnsino5;
+//	}
+//
+//	public String isConteudoMinistradoIgualPlano5() {
+//		return conteudoMinistradoIgualPlano5;
+//	}
+//
+//	public void setConteudoMinistradoIgualPlano5(
+//			String conteudoMinistradoIgualPlano5) {
+//		this.conteudoMinistradoIgualPlano5 = conteudoMinistradoIgualPlano5;
+//	}
 	
 }

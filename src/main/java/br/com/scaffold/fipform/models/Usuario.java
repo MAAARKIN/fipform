@@ -2,8 +2,12 @@ package br.com.scaffold.fipform.models;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -24,6 +28,11 @@ public class Usuario extends AbstractEntity implements Serializable {
 	private String nome;
 	@Column(name="permissao")
 	private String permissao;
+	@OneToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY)
+	@JoinColumn(name="formulario_id", referencedColumnName="id")
+	private FormularioAcademico form;
+	@Column
+	private boolean preencheu;
 	
 	public Usuario() {
 		
@@ -60,5 +69,23 @@ public class Usuario extends AbstractEntity implements Serializable {
 	public void setPermissao(String permissao) {
 		this.permissao = permissao;
 	}
+
+	public FormularioAcademico getForm() {
+		return form;
+	}
+
+	public void setForm(FormularioAcademico form) {
+		this.form = form;
+	}
+
+	public boolean isPreencheu() {
+		return preencheu;
+	}
+
+	public void setPreencheu(boolean preencheu) {
+		this.preencheu = preencheu;
+	}
+	
+	
 	
 }

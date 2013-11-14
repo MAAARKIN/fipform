@@ -31,6 +31,8 @@
 		<dependency org="org.springframework" name="spring-context-support" rev="3.2.4.RELEASE" conf="default"/>
 		<dependency org="org.springframework" name="spring-orm" rev="3.2.4.RELEASE" conf="default"/>
 		<dependency org="org.springframework" name="spring-aspects" rev="3.2.4.RELEASE" conf="default"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.27" conf="default"/>
+		<dependency org="postgresql" name="postgresql" rev="9.1-901.jdbc4" conf="default"/>
 <!-- 		<dependency org="javax.servlet" name="jsp-api" rev="2.0" conf="default"/> -->
 		
 		<!-- Provided dependencies -->
